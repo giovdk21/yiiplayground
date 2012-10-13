@@ -1,0 +1,175 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #C9E0ED;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	/* padding:6px 20px 5px 20px; */
+	xpadding: 0px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li a.active
+{
+	/* color: #6399cd;
+	background-color:#EFF4FA; */
+	color: #FA0;
+	text-decoration:none;
+}
+
+div.error, div.notice, .success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.error a
+{
+	color:#8a1f11;
+}
+
+div.notice a
+{
+	color:#514721;
+}
+
+div.success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+.actions
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.actions li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.actions li a
+{
+	padding: 5px;
+	margin: 0;
+	color: #298dcd;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	background: #DFF4FF;
+	border-left: 5px solid #589FC8;
+}
+
+.actions li a:hover, .actions li a.active
+{
+	background: #589FC8;
+	color: white;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}

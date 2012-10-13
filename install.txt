@@ -1,0 +1,25 @@
+===========================================
+  Yii Playground: how to set it up.
+===========================================
+
+1) download the latest version of Yii Framework from
+http://www.yiiframework.com/download/
+
+2) setup the Yii Framework:
+http://www.yiiframework.com/doc/guide/quickstart.installation
+
+3) download Yii Playground from github or from the latest
+snapshot from the project page:
+https://github.com/giovdk21/yiiplayground
+
+4) place the Yii Playground files into a Web-accessible directory
+
+5) copy the file index.example to index.php
+
+6) open index.php and set the path to your yii.php script
+(located inside the Yii Framework folder)
+
+7) if you are using a posix-compliant system, like linux, give
+777 permissions to the folder protected/data/
+
+8) open Yii Playground in your browser and have fun ;)
