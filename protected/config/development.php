@@ -13,6 +13,9 @@ return CMap::mergeArray(
 				'ipFilters'=>array('127.0.0.1'),
 				// 'newFileMode'=>0666,
 				// 'newDirMode'=>0777,
+				'generatorPaths'=>array(
+					'bootstrap.gii',
+				),
 			),
 		),
 		'components'=>array(

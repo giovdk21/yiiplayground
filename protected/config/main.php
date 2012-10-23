@@ -9,10 +9,10 @@
 
 
 // Common Jui Widget preferences:
-$jui_prefs =array(
-	'themeUrl'=>'css/jui/',
-	'theme'=>'base',
-);
+//$jui_prefs =array(
+//	'themeUrl'=>'css/jui/',
+//	'theme'=>'base',
+//);
 
 
 // This is the main Web application configuration. Any writable
@@ -22,7 +22,7 @@ return array(
 	'name'=>'Yii Playground',
 
 	// preloading 'log' component
-	'preload'=>array('log', 'dbManager', 'uiSettings', 'lc'),
+	'preload'=>array('log', 'dbManager', 'uiSettings', 'lc', 'bootstrap'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -87,8 +87,11 @@ return array(
 				),
 			),
 		),
+		'bootstrap'=>array(
+			'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+		),
 	),
-	
+
 	'modules' => array(
 		'AjaxModule',
 		'UiModule',
