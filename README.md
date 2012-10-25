@@ -3,7 +3,7 @@ yiiplayground
 
 Yii Playground is a demo application that uses the PHP Yii Framework to show some features of the framework starting from basic examples. It doesn't do nothing useful but it is great to play with as you learn how things works downloading and editing the code.
 
-**Live demo:** <http://yiiplayground.cubedwater.com>
+**Live demo:** <http://www.yiiplayground.com>
 
 **Intro video:** <http://www.youtube.com/watch?v=ZG-1779KABs>
 
