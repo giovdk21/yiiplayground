@@ -1,6 +1,7 @@
 
 body {
 	padding-top: 60px;
+	background: #eee;
 }
 
 #header, #page { border: 0px none; }
@@ -33,6 +34,9 @@ div.demo_box {
 
 div.source_box {
 	margin-bottom: 3em;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	font-size: 0.9em;
 }
 
 div.source_box div.syntaxhighlighter {
@@ -66,8 +70,12 @@ div.container {
 #more_topic_info {
 	position: absolute;
 	right: 20px;
-	top: 0px;
+	top: 20px;
 	display: none;
+}
+
+div.breadcrumbs {
+	padding: 20px;
 }
 
 #more_topic_info a {
@@ -152,7 +160,7 @@ div.right_menu ul {
 }
 
 div.right_menu ul li {
-	background: #EEE;
+	background: #fff;
 	border-bottom: 1px dotted #888;
 	display: block;
 	width: 100%;
@@ -163,6 +171,8 @@ div.right_menu ul li {
 div.right_menu ul li.selected {
 	background-color: #FFAA3E;
 }
+
+div.right_menu ul li.selected a { color: #200; }
 
 div.right_menu ul li.last {
 	border-bottom: 0px none;
@@ -176,8 +186,16 @@ div.right_menu ul li a {
 }
 
 div.right_menu ul li a:hover {
-	background-color: #FFF;
+	background-color: #DDD;
 }
+
+
+/* ------------------------------------------------- */
+/* Gridview + bootstrap */
+
+div.grid-view select,
+div.grid-view textarea,
+div.grid-view input { padding: 0; }
 
 /* ------------------------------------------------- */
 

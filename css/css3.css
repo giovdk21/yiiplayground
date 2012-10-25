@@ -4,6 +4,10 @@
 	overflow: hidden;
 }
 
+#page {
+	border-radius: 10px;
+}
+
 /* ------------------------------------------------- */
 
 #top_right_box {
@@ -52,7 +56,7 @@ div.right_menu div.title a {
 
 div.right_menu ul li.last, div.right_menu ul li.last a {
 	border-radius: 0px 0px 0px 10px;
-  -moz-border-radius-bottomleft: 10px;	
+  -moz-border-radius-bottomleft: 10px;
 }
 
 div.right_menu ul li a {

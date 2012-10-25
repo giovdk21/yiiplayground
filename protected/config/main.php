@@ -70,14 +70,14 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
-		'widgetFactory' => array(
-			'widgets' => array(
-				'CJuiDialog' => $jui_prefs,
-				'CJuiTabs' => $jui_prefs,
-				'CJuiDatePicker' => $jui_prefs,
-				'CJuiAutoComplete' => $jui_prefs,
-			),
-		),
+//		'widgetFactory' => array(
+//			'widgets' => array(
+//				'CJuiDialog' => $jui_prefs,
+//				'CJuiTabs' => $jui_prefs,
+//				'CJuiDatePicker' => $jui_prefs,
+//				'CJuiAutoComplete' => $jui_prefs,
+//			),
+//		),
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
