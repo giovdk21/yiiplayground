@@ -1,3 +1,4 @@
+/assets/*
 protected/runtime/*
 themes/classic/views/
 /index.php
