@@ -137,7 +137,20 @@ class SrcCollect {
 		$file =(empty($file) ? $this->last_file : $file);
 		$file =str_replace('\\', '/', $file);
 		$start_line =(empty($start_line) ? $this->start_line : $start_line);
-		echo("\n\n".'<p style="font-weight: bold; margin-bottom: 0em; margin-top: 1em; padding-left: 1.4em; color: #000;">'.substr($file, strlen($dir))."</p>");
+
+        // since the $file var could contain the real absolute path of the file, deeper than the detected $dir,
+        // we check if $dir is found inside the $file path and we add to the position the missing number of characters
+        // example:
+        // $dir = "/home/abcd/yiiplayground/";
+        // $file = '/mounted-storage/home/abcd/yiiplayground/protected/modules/UiModule/views/jui/zii_dialog.php';
+        // result: 41
+        // substr($file, $rel_pos): protected/modules/UiModule/views/jui/zii_dialog.php
+        $rel_pos = strlen($dir);
+        if ($rel_pos > 0) {
+            $rel_pos += strrpos($file, $dir);
+        }
+
+		echo("\n\n".'<p style="font-weight: bold; margin-bottom: 0em; margin-top: 1em; padding-left: 1.4em; color: #000;">'.substr($file, $rel_pos)."</p>");
 		echo('<pre class="brush: '.$type.'; ruler: false; first-line: '.($start_line+2).';">'.htmlentities($source).'</pre>'."\n\n");
 	}
 
