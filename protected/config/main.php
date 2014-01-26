@@ -32,6 +32,7 @@ return array(
 
 
 	'localeDataPath'=>'protected/i18n/data/',
+    'timeZone' => 'UTC',
 
 	// application components
 	'components'=>array(

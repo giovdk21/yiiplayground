@@ -32,6 +32,12 @@ div.demo_box {
 	margin-bottom: 1.5em;
 }
 
+div.demo_box:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
 div.source_box {
 	margin-bottom: 3em;
 	background-color: #eee;

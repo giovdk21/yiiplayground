@@ -72,8 +72,8 @@ class Ui_otherController extends Controller
 	public function actionStarRating() {
 		$ratingValue=0;
 
-		if (isset($_GET['rating'])) {
-			$ratingValue=$_GET['rating']; //according the widget name, in this case is "rating"
+		if (isset($_POST['rating'])) {
+			$ratingValue=$_POST['rating']; //according the widget name, in this case is "rating"
 		}
 		$this->render('star_rating', array('ratingValue'=>$ratingValue));
 	}
