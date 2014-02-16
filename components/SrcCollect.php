@@ -10,6 +10,7 @@
 namespace app\components;
 
 use giovdk21\yii2SyntaxHighlighter\SyntaxHighlighter as SyntaxHighlighter;
+use yii;
 use yii\helpers\ArrayHelper;
 
 
@@ -131,7 +132,7 @@ class SrcCollect extends \yii\base\Object {
 	}
 
 	public function printOut($type, $source, $file=false, $rel_path=false, $start_line=false) {
-		$dir =(!$rel_path ? dirname($_SERVER['SCRIPT_FILENAME']).'/' : '');
+		$dir =(!$rel_path ? Yii::getAlias('@app').'/' : '');
 		$file =(empty($file) ? $this->last_file : $file);
 		$file =str_replace('\\', '/', $file);
 		$start_line =(empty($start_line) ? $this->start_line : $start_line);

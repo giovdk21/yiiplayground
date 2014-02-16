@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f33bcd8c01615569ef1f63089b4842f4",
+    "hash": "71fcb6a2a7a50682050d8f33a3b4f8c1",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -49,6 +49,46 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "giovdk21/yii2-syntaxhighlighter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovdk21/yii2-syntaxhighlighter.git",
+                "reference": "1dd841048ab48002710dae26853554adbd782558"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovdk21/yii2-syntaxhighlighter/zipball/1dd841048ab48002710dae26853554adbd782558",
+                "reference": "1dd841048ab48002710dae26853554adbd782558",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "giovdk21\\yii2SyntaxHighlighter\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni Derks",
+                    "homepage": "http://derks.me.uk/"
+                }
+            ],
+            "description": "Syntax Highlighter for Yii 2",
+            "keywords": [
+                "SyntaxHighlighter",
+                "yii2"
+            ],
+            "time": "2014-02-16 18:39:27"
         },
         {
             "name": "michelf/php-markdown",
@@ -172,12 +212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "3f5673c30242a635b5bfdd356b93ea8af24c6eed"
+                "reference": "98ae5dfdf8254b8c79292ddab40e3aac67f4fabf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3f5673c30242a635b5bfdd356b93ea8af24c6eed",
-                "reference": "3f5673c30242a635b5bfdd356b93ea8af24c6eed",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/98ae5dfdf8254b8c79292ddab40e3aac67f4fabf",
+                "reference": "98ae5dfdf8254b8c79292ddab40e3aac67f4fabf",
                 "shasum": ""
             },
             "require": {
@@ -241,7 +281,7 @@
                 "framework",
                 "yii"
             ],
-            "time": "2014-02-16 04:00:30"
+            "time": "2014-02-16 18:41:17"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -461,9 +501,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "giovdk21/yii2-syntaxhighlighter": 20
+    },
     "platform": {
         "php": ">=5.4.0"
     },
