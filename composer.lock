@@ -102,50 +102,17 @@
             "time": "2013-04-11 18:53:11"
         },
         {
-            "name": "phpspec/php-diff",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpspec/php-diff.git",
-                "reference": "30e103d19519fe678ae64a60d77884ef3d71b28a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/php-diff/zipball/30e103d19519fe678ae64a60d77884ef3d71b28a",
-                "reference": "30e103d19519fe678ae64a60d77884ef3d71b28a",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Diff": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Boulton",
-                    "homepage": "http://github.com/chrisboulton"
-                }
-            ],
-            "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
-            "time": "2013-11-01 13:02:21"
-        },
-        {
             "name": "twbs/bootstrap",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "3157a3777536f1be7a8ccbb6170611492f9b2733"
+                "reference": "accc95ccd63f8aa903fa07bea55ef34794d84cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/3157a3777536f1be7a8ccbb6170611492f9b2733",
-                "reference": "3157a3777536f1be7a8ccbb6170611492f9b2733",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/accc95ccd63f8aa903fa07bea55ef34794d84cc5",
+                "reference": "accc95ccd63f8aa903fa07bea55ef34794d84cc5",
                 "shasum": ""
             },
             "type": "library",
@@ -174,20 +141,20 @@
                 "bootstrap",
                 "css"
             ],
-            "time": "2014-01-26 02:33:23"
+            "time": "2014-02-14 01:57:24"
         },
         {
             "name": "yiisoft/jquery",
-            "version": "2.0.3",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/jquery.git",
-                "reference": "868d0bbbed8de6155d0079d09e22385c98e9cc54"
+                "reference": "a585ca4d6a2a129897a95575d229496a3486390b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/jquery/zipball/868d0bbbed8de6155d0079d09e22385c98e9cc54",
-                "reference": "868d0bbbed8de6155d0079d09e22385c98e9cc54",
+                "url": "https://api.github.com/repos/yiisoft/jquery/zipball/a585ca4d6a2a129897a95575d229496a3486390b",
+                "reference": "a585ca4d6a2a129897a95575d229496a3486390b",
                 "shasum": ""
             },
             "type": "library",
@@ -197,7 +164,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2013-11-06 00:14:57"
+            "time": "2014-01-24 06:00:08"
         },
         {
             "name": "yiisoft/yii2",
@@ -205,12 +172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b14a58670fb9daf72ba0c93d8e60dfa9dfc271d8"
+                "reference": "3f5673c30242a635b5bfdd356b93ea8af24c6eed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b14a58670fb9daf72ba0c93d8e60dfa9dfc271d8",
-                "reference": "b14a58670fb9daf72ba0c93d8e60dfa9dfc271d8",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3f5673c30242a635b5bfdd356b93ea8af24c6eed",
+                "reference": "3f5673c30242a635b5bfdd356b93ea8af24c6eed",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +186,6 @@
                 "lib-pcre": "*",
                 "michelf/php-markdown": "1.3.*",
                 "php": ">=5.4.0",
-                "phpspec/php-diff": ">=1.0.2",
                 "yiisoft/jquery": "~2.0 | ~1.10",
                 "yiisoft/yii2-composer": "*"
             },
@@ -275,7 +241,7 @@
                 "framework",
                 "yii"
             ],
-            "time": "2014-01-26 17:57:07"
+            "time": "2014-02-16 04:00:30"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -283,12 +249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "1b963420633a7ca3dfb8ad5124d0ffda9cb48d45"
+                "reference": "19c8b53ac7a5cf2aba388095528cbb2119aa40df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/1b963420633a7ca3dfb8ad5124d0ffda9cb48d45",
-                "reference": "1b963420633a7ca3dfb8ad5124d0ffda9cb48d45",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/19c8b53ac7a5cf2aba388095528cbb2119aa40df",
+                "reference": "19c8b53ac7a5cf2aba388095528cbb2119aa40df",
                 "shasum": ""
             },
             "require": {
@@ -318,7 +284,7 @@
                 "bootstrap",
                 "yii"
             ],
-            "time": "2014-01-23 12:06:18"
+            "time": "2014-02-16 00:44:26"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -369,17 +335,50 @@
     ],
     "packages-dev": [
         {
+            "name": "phpspec/php-diff",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/php-diff.git",
+                "reference": "30e103d19519fe678ae64a60d77884ef3d71b28a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/php-diff/zipball/30e103d19519fe678ae64a60d77884ef3d71b28a",
+                "reference": "30e103d19519fe678ae64a60d77884ef3d71b28a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Diff": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Boulton",
+                    "homepage": "http://github.com/chrisboulton"
+                }
+            ],
+            "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
+            "time": "2013-11-01 13:02:21"
+        },
+        {
             "name": "yiisoft/yii2-debug",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "cea45095f24ee7a5afada43e798eef341ad2be40"
+                "reference": "7cfb77f479ffc254770460ac21db2d7d5e0fb35f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/cea45095f24ee7a5afada43e798eef341ad2be40",
-                "reference": "cea45095f24ee7a5afada43e798eef341ad2be40",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/7cfb77f479ffc254770460ac21db2d7d5e0fb35f",
+                "reference": "7cfb77f479ffc254770460ac21db2d7d5e0fb35f",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +409,7 @@
                 "debugger",
                 "yii"
             ],
-            "time": "2014-01-23 03:23:51"
+            "time": "2014-02-14 17:01:57"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -418,15 +417,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "d43f091a2bc8d3f22d67b81c9e4f224c0680f1dd"
+                "reference": "c2e5e7c119a82b3252747e46fbd4c93e5b13a9e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/d43f091a2bc8d3f22d67b81c9e4f224c0680f1dd",
-                "reference": "d43f091a2bc8d3f22d67b81c9e4f224c0680f1dd",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/c2e5e7c119a82b3252747e46fbd4c93e5b13a9e3",
+                "reference": "c2e5e7c119a82b3252747e46fbd4c93e5b13a9e3",
                 "shasum": ""
             },
             "require": {
+                "phpspec/php-diff": ">=1.0.2",
                 "yiisoft/yii2": "*",
                 "yiisoft/yii2-bootstrap": "*"
             },
@@ -454,7 +454,7 @@
                 "gii",
                 "yii"
             ],
-            "time": "2014-01-23 20:03:30"
+            "time": "2014-02-07 09:39:35"
         }
     ],
     "aliases": [

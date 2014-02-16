@@ -31,6 +31,9 @@ $config = [
 			],
 		],
 		'db' => $db,
+        'sc' => [
+            'class' => 'app\components\SrcCollect',
+        ],
 	],
 	'params' => $params,
 ];
