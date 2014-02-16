@@ -172,7 +172,7 @@ class SrcCollect extends \yii\base\Object {
 		if (!empty($this->source_arr)) {
             $brushes = ArrayHelper::getColumn($this->source_arr, 'type');
             echo '<div class="source_box">';
-            SyntaxHighlighter::begin(['brushes' => array_unique($brushes), 'strings'=>['help' => 'prr']]);
+            SyntaxHighlighter::begin(['brushes' => array_unique($brushes)]);
 			foreach ($this->source_arr as $data) {
 				$this->printOut($data['type'], $data['source'], $data['file'], $data['rel_path'], $data['start_line']);
 			}
