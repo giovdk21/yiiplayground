@@ -3,30 +3,28 @@
 namespace app\controllers;
 
 use Yii;
-use yii\web\AccessControl;
+use yii\filters\AccessControl;
 use yii\web\Controller;
-use yii\web\VerbFilter;
+use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\ContactForm;
 
 class SiteController extends Controller
 {
-	public function behaviors()
-	{
+	public function behaviors() {
 		return [
 			'access' => [
 				'class' => AccessControl::className(),
-				'only' => ['logout'],
+				'only'  => ['logout'],
 				'rules' => [
 					[
 						'actions' => ['logout'],
-						'allow' => true,
-						'roles' => ['@'],
+						'allow'   => true,
+						'roles'   => ['@'],
 					],
 				],
 			],
-			'verbs' => [
-				'class' => VerbFilter::className(),
+			'verbs'  => [
+				'class'   => VerbFilter::className(),
 				'actions' => [
 					'logout' => ['post'],
 				],
@@ -34,26 +32,23 @@ class SiteController extends Controller
 		];
 	}
 
-	public function actions()
-	{
+	public function actions() {
 		return [
-			'error' => [
+			'error'   => [
 				'class' => 'yii\web\ErrorAction',
 			],
 			'captcha' => [
-				'class' => 'yii\captcha\CaptchaAction',
+				'class'           => 'yii\captcha\CaptchaAction',
 				'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
 			],
 		];
 	}
 
-	public function actionIndex()
-	{
+	public function actionIndex() {
 		return $this->render('index');
 	}
 
-	public function actionLogin()
-	{
+	public function actionLogin() {
 		if (!\Yii::$app->user->isGuest) {
 			$this->goHome();
 		}
@@ -61,21 +56,22 @@ class SiteController extends Controller
 		$model = new LoginForm();
 		if ($model->load($_POST) && $model->login()) {
 			return $this->goBack();
-		} else {
+		}
+		else {
 			return $this->render('login', [
-				'model' => $model,
-			]);
+					'model' => $model,
+				]
+			);
 		}
 	}
 
-	public function actionLogout()
-	{
+	public function actionLogout() {
 		Yii::$app->user->logout();
+
 		return $this->goHome();
 	}
 
-	public function actionAbout()
-	{
+	public function actionAbout() {
 		return $this->render('about');
 	}
 }
