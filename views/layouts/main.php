@@ -7,7 +7,7 @@ use app\assets\AppAsset;
 
 /**
  * @var \yii\web\View $this
- * @var string $content
+ * @var string        $content
  */
 AppAsset::register($this);
 ?>
@@ -23,46 +23,64 @@ AppAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
-	<div class="wrap">
-		<?php
-			NavBar::begin([
-				'brandLabel' => 'Yii Playground',
-				'brandUrl' => Yii::$app->homeUrl,
-				'options' => [
-					'class' => 'navbar-inverse navbar-fixed-top',
-				],
-			]);
-			echo Nav::widget([
-				'options' => ['class' => 'navbar-nav navbar-right'],
-				'items' => [
-					['label' => 'Home', 'url' => ['/site/index']],
-					['label' => 'About', 'url' => 'https://github.com/giovdk21/yiiplayground'],
-//					Yii::$app->user->isGuest ?
-//						['label' => 'Login', 'url' => ['/site/login']] :
-//						['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
-//							'url' => ['/site/logout'],
-//							'linkOptions' => ['data-method' => 'post']],
-				],
-			]);
-			NavBar::end();
-		?>
+<div class="wrap">
+	<?php
+	NavBar::begin([
+			'brandLabel' => 'Yii Playground',
+			'brandUrl'   => Yii::$app->homeUrl,
+			'options'    => [
+				'class' => 'navbar-inverse navbar-fixed-top',
+			],
+		]
+	);
+	echo Nav::widget([
+			'options' => ['class' => 'navbar-nav navbar-right'],
+			'items'   => [
+//				['label' => 'Basics',
+//				 'items' => [
+//					 ['label' => 'Path Aliases', 'url' => ['basics/aliases']],
+//					 ['label' => 'Helper classes', 'url' => ['basics/helpers']],
+//					 ['label' => 'Events', 'url' => ['index']],
+//					 ['label' => 'Behaviors', 'url' => ['index']],
+//				 ]
+//				],
+//				['label' => 'Advanced',
+//				 'items' => [
+//					 ['label' => 'Managing assets', 'url' => ['index']],
+//					 ['label' => 'Working with forms', 'url' => ['index']],
+//					 ['label' => 'Bootstrap widgets', 'url' => ['index']],
+//					 ['label' => 'Theming', 'url' => ['index']],
+//					 ['label' => 'Caching', 'url' => ['index']],
+//					 ['label' => 'Internationalization', 'url' => ['index']],
+//					 ['label' => '', 'url' => ['index']],
+//				 ]
+//				],
+				['label' => 'About', 'url' => 'https://github.com/giovdk21/yiiplayground'],
+			],
+		]
+	);
+	NavBar::end();
+	?>
 
-		<div class="container">
-			<?= Breadcrumbs::widget([
+	<div class="container">
+		<?=
+		Breadcrumbs::widget([
 				'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-			]) ?>
-			<?= $content ?>
-		</div>
+			]
+		) ?>
+		<?= $content ?>
 	</div>
+</div>
 
-	<footer class="footer">
-		<div class="container">
-			<p class="pull-left">&copy;
-                <a href="https://github.com/giovdk21/yiiplayground/graphs/contributors">Yii Playground contributors</a>
-                <?= date('Y') ?></p>
-			<p class="pull-right"><?= Yii::powered() ?></p>
-		</div>
-	</footer>
+<footer class="footer">
+	<div class="container">
+		<p class="pull-left">&copy;
+			<a href="https://github.com/giovdk21/yiiplayground/graphs/contributors">Yii Playground contributors</a>
+			<?= date('Y') ?></p>
+
+		<p class="pull-right"><?= Yii::powered() ?></p>
+	</div>
+</footer>
 
 <?php $this->endBody() ?>
 </body>

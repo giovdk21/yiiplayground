@@ -17,8 +17,14 @@
         "giovdk21/yii2-syntaxhighlighter": "dev-master"
 	},
 	"require-dev": {
+		"yiisoft/yii2-codeception": "*",
 		"yiisoft/yii2-debug": "*",
 		"yiisoft/yii2-gii": "*"
+	},
+	"suggest": {
+		"codeception/codeception": "Codeception, 1.8.*@dev is currently works well with Yii.",
+		"codeception/specify": "BDD style code blocks for PHPUnit and Codeception",
+		"codeception/verify": "BDD Assertions for PHPUnit and Codeception"
 	},
 	"scripts": {
 		"post-create-project-cmd": [

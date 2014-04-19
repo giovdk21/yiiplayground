@@ -19,3 +19,6 @@ Yii Playground is a demo application that uses the PHP Yii Framework to show som
  * always compatible with the last stable Yii version: all examples will have to be current and working
  * easy to understand examples
  * examples should follow "best practices" and should show the best or one of the best ways of doing that particular thing; more experienced users can supervise on this
+
+**Installation:**
+Please see the install.txt file
