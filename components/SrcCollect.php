@@ -157,7 +157,7 @@ class SrcCollect extends \yii\base\Object
 		}
 
 		echo("\n\n"
-			. '<p style="font-weight: bold; margin-bottom: 0em; margin-top: 1em; padding-left: 1.4em; color: #000;">'
+			. '<p style="font-weight: bold; margin-bottom: 0em; margin-top: 0.2em; padding-left: 1.4em; color: #000;">'
 			. substr($file, $rel_pos)
 			. "</p>"
 		);

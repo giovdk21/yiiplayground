@@ -2,7 +2,6 @@
 /**
  * @var yii\web\View $this
  */
-$this->title = 'Yii Playground';
 ?>
 
 <div class="site-index">

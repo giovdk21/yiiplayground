@@ -4,11 +4,11 @@ namespace app\controllers;
 
 use Yii;
 use yii\filters\AccessControl;
-use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
+use app\components\BaseController;
 
-class SiteController extends Controller
+class SiteController extends BaseController
 {
 	public function behaviors() {
 		return [

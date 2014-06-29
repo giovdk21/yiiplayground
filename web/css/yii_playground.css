@@ -1,0 +1,112 @@
+
+div.left-menu > ul.nav > li.active > a,
+div.left-menu > ul.nav > li.active > a:hover {
+    background-color: #428bca;
+}
+
+div.left-menu > ul.nav > li > a {
+    background-color: #ffffff;
+}
+
+div.left-menu > ul.nav > li > a {
+    color: #555555;
+}
+
+div.left-menu > ul.nav > li > a:hover {
+    background-color: #428bca;
+    border-color: #428bca;
+    color: #ffffff;
+}
+
+div.left-menu > ul.nav > li.active > a {
+    color: #ffffff;
+    border-color: #428bca;
+}
+
+div.left-menu > ul.nav > li.active > a:hover {
+    background-color: #44b5f6;
+    border-color: #44b5f6;
+}
+
+div.left-menu > ul.nav > li > a {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+div.left-menu > ul.nav > li:first-child > a {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.left-menu > ul.nav > li:last-child > a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 10px none;
+}
+
+div.left-menu {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.syntaxhighlighter div.container:before,
+.syntaxhighlighter div.container:after {
+    display: block;
+    content: "";
+}
+
+div.demo_box:before,
+div.source_box:before {
+    position: absolute;
+    top: -12px;
+    background-color: #888888;
+    color: #ffffff;
+    line-height: 22px;
+    padding: 0 8px;
+    border-radius: 3px;
+    vertical-align: middle;
+    font-size: 10pt;
+}
+
+div.demo_box:before {
+    content: "Output:";
+}
+
+div.source_box:before {
+    content: "Source:";
+}
+
+div.demo_box,
+div.source_box {
+    margin-top: 30px;
+    position: relative;
+    padding: 1em;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #dddddd;
+}
+
+a.guide-link {
+    height: 22px;
+    line-height: 22px;
+    float: right;
+}
+
+a.guide-link span {
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;
+    top: -1px;
+    vertical-align: middle;
+}
+
+article.example-row {
+    margin: 40px 0;
+}
+
+article.example-row h2 {
+    margin-top: 30px;
+    color: #555555;
+    border-bottom: 3px solid #eeeeee;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
