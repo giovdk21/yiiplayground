@@ -14,7 +14,7 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "*",
 		"yiisoft/yii2-bootstrap": "*",
-        "giovdk21/yii2-syntaxhighlighter": "dev-master"
+		"giovdk21/yii2-syntaxhighlighter": "dev-master"
 	},
 	"require-dev": {
 		"yiisoft/yii2-codeception": "*",

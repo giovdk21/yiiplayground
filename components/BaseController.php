@@ -28,6 +28,10 @@ class BaseController extends Controller
                 ['label' => 'Html', 'url' => ['helpers/html']],
             ]
         ],
+				[
+					'label' => 'Ajax request',
+					'url' => ['ajax/index']
+				],
     ];
 
 } 

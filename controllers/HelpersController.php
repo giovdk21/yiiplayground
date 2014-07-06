@@ -8,19 +8,20 @@ use app\components\BaseController;
 class HelpersController extends BaseController
 {
 
-    public function actionUrl() {
+	public function actionUrl() {
 
-        $this->actionParams = ['breadcrumbs'=>'aa'];
+		$this->actionParams = ['breadcrumbs' => 'aa'];
 
-        return $this->render('url', [
-            'breadcrumbs' => [['label' => 'Sample Post', 'url' => ['post/edit', 'id' => 1]]]
-            ]);
-    }
+		return $this->render('url', [
+				'breadcrumbs' => [['label' => 'Sample Post', 'url' => ['post/edit', 'id' => 1]]]
+			]
+		);
+	}
 
 
-    public function actionHtml() {
-        return $this->render('html');
-    }
+	public function actionHtml() {
+		return $this->render('html');
+	}
 
 
 }

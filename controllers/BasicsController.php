@@ -9,8 +9,8 @@ use app\components\BaseController;
 class BasicsController extends BaseController
 {
 
-    public function actionAliases() {
-        return $this->render('aliases');
-    }
+	public function actionAliases() {
+		return $this->render('aliases');
+	}
 
 }

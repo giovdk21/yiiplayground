@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "491064a56d6d7ad8f88724305990a77b",
+    "hash": "25dea61675184eb666beac9ef96398f6",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -110,12 +110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/giovdk21/yii2-syntaxhighlighter.git",
-                "reference": "8f2b20ea6a07f4096651344bd3f917b9f6817476"
+                "reference": "0d776f2baa7820e18436ccf6d5c563479e0015eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giovdk21/yii2-syntaxhighlighter/zipball/8f2b20ea6a07f4096651344bd3f917b9f6817476",
-                "reference": "8f2b20ea6a07f4096651344bd3f917b9f6817476",
+                "url": "https://api.github.com/repos/giovdk21/yii2-syntaxhighlighter/zipball/0d776f2baa7820e18436ccf6d5c563479e0015eb",
+                "reference": "0d776f2baa7820e18436ccf6d5c563479e0015eb",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,7 @@
                 "SyntaxHighlighter",
                 "yii2"
             ],
-            "time": "2014-02-16 21:04:03"
+            "time": "2014-07-06 19:49:26"
         },
         {
             "name": "twbs/bootstrap",

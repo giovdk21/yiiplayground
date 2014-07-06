@@ -11,50 +11,53 @@ $this->params['guideUrl'] = 'http://www.yiiframework.com/doc-2.0/yii-helpers-url
 
 
 <article class="example-row">
-    <h2>base()</h2>
-    <div class="demo_box">
+	<h2>base()</h2>
 
-        <?php
-        Yii::$app->sc->setStart(__LINE__);
+	<div class="demo_box">
 
-        echo "Base url: " . Url::base();
+		<?php
+		Yii::$app->sc->setStart(__LINE__);
 
-        Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
-        ?>
+		echo "Base url: " . Url::base();
 
-    </div>
-    <?php Yii::$app->sc->renderSourceBox(); ?>
+		Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
+		?>
+
+	</div>
+	<?php Yii::$app->sc->renderSourceBox(); ?>
 </article>
 
 
 <article class="example-row">
-    <h2>home()</h2>
-    <div class="demo_box">
+	<h2>home()</h2>
 
-        <?php
-        Yii::$app->sc->setStart(__LINE__);
+	<div class="demo_box">
 
-        echo "Home url: " . Url::home();
+		<?php
+		Yii::$app->sc->setStart(__LINE__);
 
-        Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
-        ?>
+		echo "Home url: " . Url::home();
 
-    </div>
-    <?php Yii::$app->sc->renderSourceBox(); ?>
+		Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
+		?>
+
+	</div>
+	<?php Yii::$app->sc->renderSourceBox(); ?>
 </article>
 
 <article class="example-row">
-    <h2>to()</h2>
-    <div class="demo_box">
+	<h2>to()</h2>
 
-        <?php
-        Yii::$app->sc->setStart(__LINE__);
+	<div class="demo_box">
 
-        echo "Url: " . Url::to(['site/index', 'src' => 'ref1', '#' => 'name']);
+		<?php
+		Yii::$app->sc->setStart(__LINE__);
 
-        Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
-        ?>
+		echo "Url: " . Url::to(['site/index', 'src' => 'ref1', '#' => 'name']);
 
-    </div>
-    <?php Yii::$app->sc->renderSourceBox(); ?>
+		Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
+		?>
+
+	</div>
+	<?php Yii::$app->sc->renderSourceBox(); ?>
 </article>

@@ -1,6 +1,5 @@
 <?php
 use yii\helpers\Html;
-use yii\helpers\Url;
 
 $this->title = 'Path aliases';
 $this->params['breadcrumbs'] = ['Basics', $this->title];
@@ -12,21 +11,22 @@ $this->params['guideUrl'] = 'http://www.yiiframework.com/doc-2.0/guide-basics.ht
 
 <article class="example-row">
 
-    <h2>getAlias / setAlias</h2>
-    <div class="demo_box" id="hyperlink">
+	<h2>getAlias / setAlias</h2>
 
-        <?php
-        Yii::$app->sc->setStart(__LINE__);
+	<div class="demo_box" id="hyperlink">
 
-        Yii::setAlias('@myCssAlias', '@web/css');
+		<?php
+		Yii::$app->sc->setStart(__LINE__);
 
-        echo "@web alias: " . Yii::getAlias('@web')."<br>";
-        echo "@myCss alias: " . Yii::getAlias('@myCssAlias')."<br>";
-        echo "Css file: " . Yii::getAlias('@myCssAlias/site.css')."<br>";
+		Yii::setAlias('@myCssAlias', '@web/css');
 
-        Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
-        ?>
+		echo "@web alias: " . Yii::getAlias('@web') . "<br>";
+		echo "@myCss alias: " . Yii::getAlias('@myCssAlias') . "<br>";
+		echo "Css file: " . Yii::getAlias('@myCssAlias/site.css') . "<br>";
 
-    </div>
-    <?php Yii::$app->sc->renderSourceBox(); ?>
+		Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
+		?>
+
+	</div>
+	<?php Yii::$app->sc->renderSourceBox(); ?>
 </article>

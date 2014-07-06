@@ -1,6 +1,5 @@
 <?php
 use yii\helpers\Html;
-use yii\helpers\Url;
 
 $this->title = 'Html helper';
 $this->params['breadcrumbs'] = ['Helpers', 'Html'];
@@ -12,17 +11,18 @@ $this->params['guideUrl'] = 'http://www.yiiframework.com/doc-2.0/yii-helpers-htm
 
 <article class="example-row">
 
-    <h2>Hyperlink tag</h2>
-    <div class="demo_box" id="hyperlink">
+	<h2>Hyperlink tag</h2>
 
-        <?php
-        Yii::$app->sc->setStart(__LINE__);
+	<div class="demo_box" id="hyperlink">
 
-        echo "My link: " . Html::a('click!', ['helpers/html', '#' => 'hyperlink']);
+		<?php
+		Yii::$app->sc->setStart(__LINE__);
 
-        Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
-        ?>
+		echo "My link: " . Html::a('click!', ['helpers/html', '#' => 'hyperlink']);
 
-    </div>
-    <?php Yii::$app->sc->renderSourceBox(); ?>
+		Yii::$app->sc->collect('php', Yii::$app->sc->getSourceToLine(__LINE__, __FILE__));
+		?>
+
+	</div>
+	<?php Yii::$app->sc->renderSourceBox(); ?>
 </article>
