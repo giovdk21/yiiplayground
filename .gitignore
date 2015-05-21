@@ -4,3 +4,7 @@ themes/classic/views/
 /index.php
 .idea/
 protected/data/user.db
+
+# Composer stuff
+/composer*
+/vendor*
