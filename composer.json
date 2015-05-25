@@ -1,0 +1,30 @@
+{
+	"name": "giovdk21/yiiplayground",
+	"description": "Playground for Yii v1.1 framework",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["yii", "playground"],
+	"homepage": "http://www.yiiplayground.com/",
+	"authors": [
+		{
+			"name": "Giovanni Derks",
+			"homepage": "http://derks.me.uk"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/giovdk21/yiiplayground/issues",
+		"wiki": "https://github.com/giovdk21/yiiplayground/wiki",
+		"source": "https://github.com/giovdk21/yiiplayground"
+	},
+	"require": {
+		"php":">=5.4.0"
+	},
+	"require-dev": {
+		"yiisoft/yii": "~1.1"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"cp index.composer.example index.php"
+		]
+	}
+}
