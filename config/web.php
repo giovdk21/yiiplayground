@@ -7,8 +7,11 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'extensions' => require(__DIR__ . '/../vendor/yiisoft/extensions.php'),
     'components' => [
+        'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => '9L9ab7HNQp55FckmS6uJM7nqgapqG7di',
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

@@ -1,9 +1,7 @@
 <?php
-/**
- * @var yii\web\View $this
- */
+/* @var $this yii\web\View */
+$this->title = 'Yii Playground';
 ?>
-
 <div class="site-index">
 
 	<div class="jumbotron">
@@ -43,5 +41,4 @@
 		</div>
 
 	</div>
-
 </div>
