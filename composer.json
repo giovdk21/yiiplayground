@@ -1,8 +1,8 @@
 {
 	"name": "giovdk21/yiiplayground",
 	"description": "Playground for Yii v1.1 framework",
-	"type": "library",
-	"license": "MIT",
+	"type": "project",
+	"license": "BSD-3-Clause",
 	"keywords": ["yii", "playground"],
 	"homepage": "http://www.yiiplayground.com/",
 	"authors": [

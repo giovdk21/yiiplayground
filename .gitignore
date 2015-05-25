@@ -6,5 +6,4 @@ themes/classic/views/
 protected/data/user.db
 
 # Composer stuff
-/composer*
 /vendor*
